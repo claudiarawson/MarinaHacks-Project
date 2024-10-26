@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: 'rgba(0, 52, 52, 0.8)';
 }
 
 code {
@@ -18,12 +19,14 @@ code {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background-color: #400;
-  color: #f0f;
-  opacity: 0.5;
+  background-color: #000;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
 }
 
+.background {
+  background-color: #f4c;
+}
