@@ -8,16 +8,32 @@ const App = () => {
   return (
     <div>
       <button type="button" onClick={handleClick}>
-        Home
+        <div class=".header">
+          Home
+        </div>
       </button>
       <button type="button" onClick={handleClick}>
-        Grades
+        <div class=".header">
+          Grades
+        </div>
       </button>
       <button type="button" onClick={handleClick}>
-        Schedule
+        <div class=".header">
+          Schedule
+        </div>
       </button>
       <button type="button" onClick={handleClick}>
-        Community
+        <div class=".header">
+          Community
+        </div>
+      </button>
+      <button type="button" onClick={handleClick}>
+        <div class=".header">
+          Next Two Weeks
+        </div>
+      </button>
+      <button type="button" onClick={handleClick}>
+        Next Two Weeks
       </button>
     </div>
   );
