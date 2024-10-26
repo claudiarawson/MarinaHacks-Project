@@ -7,32 +7,22 @@ const App = () => {
         // implementation
     }
   return (
-    <div class="background">
-      <button type="button" onClick={handleClick}>
-        <div class="header">
-          Home
-        </div>
-      </button>
-      <button type="button" onClick={handleClick}>
-        <div class="header">
-          Grades
-        </div>
-      </button>
-      <button type="button" onClick={handleClick}>
-        <div class="header">
-          Schedule
-        </div>
-      </button>
-      <button type="button" onClick={handleClick}>
-        <div class="header">
-          Community
-        </div>
-      </button>
-      <button type="button" onClick={handleClick}>
-        <div class="header">
-          Next Two Weeks
-        </div>
-      </button>
+    <div class="header">
+      <header-button type="header-button" onClick={handleClick}>
+        Home
+      </header-button>
+      <header-button type="header-button" onClick={handleClick}>
+        Grades
+      </header-button>
+      <header-button type="header-button" onClick={handleClick}>
+        Schedule
+      </header-button>
+      <header-button type="header-button" onClick={handleClick}>
+        Community
+      </header-button>
+      <header-button type="header-button" onClick={handleClick}>
+        Next Two Weeks
+      </header-button>
     </div>
   );
 };

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,14 +25,18 @@ code {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: left;
   z-index: 100;
+}
+.header-button {
+  opacity: 1;
+
 }
 
 .background {
-  background-color: #f4c;
+  background-color: rgba(f, f, f, 0.7);
 }
