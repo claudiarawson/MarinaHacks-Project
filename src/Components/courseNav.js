@@ -2,25 +2,39 @@ import { Link } from 'react-router-dom';
 
 const callouts = [
   {
-    name: 'Current Courses',
-    description: 'All your classes compacted into a simple manner.',
-    imageSrc: 'https://i.ibb.co/8XYzXy7/long-beach-california-united-states-600nw-1421475050.webp',
+    name: 'CECS 326',
+    description: 'Operating Systems',
+    imageSrc: 'https://i.postimg.cc/CMbkN3JP/istockphoto-1386531981-612x612.jpg',
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-    href: '/courseNav',
+    href: '/',
   },
   {
-    name: 'Tutoring Center and Resources',
-    description: 'All your studying needs compresses into one.',
-    imageSrc: 'https://i.ibb.co/0qWx42C/lecture-hall-thumb.jpg',
+    name: 'CECS 328',
+    description: 'Algorithms',
+    imageSrc: 'https://i.postimg.cc/Dzt4Q6G3/istockphoto-1386341272-612x612.jpg',
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-    href: 'https://www.csulb.edu/academic-advising-at-csulb/the-learning-center/tutoring', 
+    href: '/',
   },
   {
-    name: 'Calendar',
-    description: 'Update your calendar and see upcoming assignments.',
-    imageSrc: 'https://i.ibb.co/zrzrWGB/istockphoto-1307098713-612x612.jpg',
+    name: 'CECS 378',
+    description: 'Intro to Computer Security Principles',
+    imageSrc: 'https://i.postimg.cc/Wb2F7hdz/istockphoto-1331943958-612x612.jpg',
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-    href: '/calendar', // Link to the Calendar component
+    href: '/', // Link to the Calendar component
+  },
+  {
+    name: 'EE 381',
+    description: 'Probability and Statistics - Computing',
+    imageSrc: 'https://i.postimg.cc/8z7CyWNp/360-F-211732841-Gknumxwh-Sdcei-B38k7s8fpue-Xh-ZQ6-RDC.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/', // Link to the Calendar component
+  },
+  {
+    name: 'ENGR 361',
+    description: 'Scientific Research Communication',
+    imageSrc: 'https://i.postimg.cc/Zq35mSWX/istockphoto-175489635-612x612.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/', // Link to the Calendar component
   },
 ];
 
@@ -29,7 +43,7 @@ export default function Example() {
     <div className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-2xl font-bold text-gray-900">Navigation Menu</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Current Courses</h2>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
