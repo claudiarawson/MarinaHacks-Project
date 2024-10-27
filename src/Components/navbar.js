@@ -2,10 +2,10 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '/dashboard', current: true },
-  { name: 'Student Center', href: '#', current: false },
-  { name: 'Outlook', href: '#', current: false },
-  { name: 'Campus Events', href: '#', current: false },
+  { name: 'Dashboard', href: '/', current: true },
+  { name: 'Student Center', href: 'https://launcher.myapps.microsoft.com/api/signin/09114a23-a0d0-4d31-9613-02da2fe5c4c1?tenantId=d175679b-acd3-4644-be82-af041982977a', current: false },
+  { name: 'Outlook', href: 'https://launcher.myapps.microsoft.com/api/signin/968a64b0-21aa-4b19-a1f3-f7f851214fb3?tenantId=d175679b-acd3-4644-be82-af041982977a', current: false },
+  { name: 'Campus Events', href: 'https://www.csulb.edu/student-affairs/student-life-development/calendar-of-events', current: false },
 ]
 
 function classNames(...classes) {
@@ -29,8 +29,8 @@ export default function Example() {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
               <img
-                alt="Your Company"
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
+                alt="Cal State Long Beach"
+                src="https://i.postimg.cc/RFpt6mTG/images.png"
                 className="h-8 w-auto"
               />
             </div>
@@ -70,7 +70,7 @@ export default function Example() {
                   <span className="sr-only">Open user menu</span>
                   <img
                     alt=""
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="https://i.postimg.cc/BZM8vJvK/hackathonimage.png"
                     className="h-8 w-8 rounded-full"
                   />
                 </MenuButton>
