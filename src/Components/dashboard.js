@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Category from './category';
 
 const user = {
   name: 'John Doe',
@@ -9,10 +10,10 @@ const user = {
 }
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'Classes', href: '#', current: false },
+  { name: 'Student Center', href: '#', current: false },
   { name: 'Assignments', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-  { name: 'Grades', href: '#', current: false },
+  { name: 'Outlook', href: '#', current: false },
+  { name: 'Campus News', href: '#', current: false },
 ]
 const userNavigation = [
   { name: 'Your Profile', href: '#' },
@@ -172,7 +173,9 @@ export default function Example() {
           </div>
         </header>
         <main>
-          <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">{/* Your content */}</div>
+            <div className="Example">
+                <Category />
+            </div>
         </main>
       </div>
     </>
