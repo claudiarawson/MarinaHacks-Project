@@ -9,22 +9,22 @@ const App = () => {
   return (
     <div>
       <div class="header">
-        <header-button type="header-button" onClick={handleClick}>
+        <div type="button" onClick={handleClick}>
           Home
-        </header-button>
+        </div>
         <input type="text" placeholder="Search..."/>
-        <header-button type="header-button" onClick={handleClick}>
+        <div type="button" onClick={handleClick}>
           Grades
-        </header-button>
-        <header-button type="header-button" onClick={handleClick}>
+        </div>
+        <div type="button" onClick={handleClick}>
           Schedule
-        </header-button>
-        <header-button type="header-button" onClick={handleClick}>
+        </div>
+        <div type="button" onClick={handleClick}>
           Community
-        </header-button>
-        <header-button type="header-button" onClick={handleClick}>
+        </div>
+        <div type="button" onClick={handleClick}>
           Next Two Weeks
-        </header-button>
+        </div>
       </div>
     </div>
 

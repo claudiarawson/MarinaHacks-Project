@@ -31,16 +31,21 @@ code {
   justify-content: space-evenly;
   align-items: left;
   z-index: 100;
+  font-size: 12px;
 }
-.header-button {
+
+.header button {
   opacity: 1;
 
 }
 
+
+
 .header input[type=text] {
   float: right;
   border: none;
-  margin-right: 100px;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .background {
